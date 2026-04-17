@@ -4,13 +4,13 @@
 Đây là pipeline xây dựng chatbot phân tích dữ liệu kinh doanh tự động từ ngôn ngữ tự nhiên - hỗ trợ Business Development trong việc phân tích dữ liệu kinh doanh. 
 Mã nguồn được viết hoàn toàn trên nền tảng Google Colab và sử dụng Supabase làm cơ sở dữ liệu.
 
-## 2. Cấu trúc thư mục (Liệt kê các files nộp)
+## 2. Cấu trúc thư mục
 - `HeheNotebook.ipynb`: File mã nguồn chính (Google Colab Notebook) chứa toàn bộ pipeline.
 - `database_schema.sql`: Cấu trúc bảng và các function/trigger (nếu có) dùng trong Supabase.
 - folder `data`: Dữ liệu đã được trích xuất từ Supabase để đảm bảo tính tái lập (reproducibility).
 - `README.md`: File hướng dẫn cài đặt và chạy.
 
-## 3. Hướng dẫn chạy (How to run)
+## 3. Hướng dẫn chạy
 
 Để chạy được project này, vui lòng làm theo các bước sau:
 
@@ -32,3 +32,7 @@ Vui lòng di chuyển đến ô 'Load data' và ô 'Set-up API Key'.
 **Bước 4: Chạy Pipeline**
 - Chạy lần lượt từng cell từ trên xuống dưới trong file Notebook.
 - Quan sát và đánh giá kết quả
+
+## 4. Dataset
+- Database name: Brazilian E-Commerce Public Dataset by Olist
+- Đường dẫn: kaggle.com/datasets/olistbr/brazilian-ecommerce
