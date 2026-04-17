@@ -20,6 +20,7 @@ Mã nguồn được viết hoàn toàn trên nền tảng Google Colab và sử
 
 **Bước 2: Tái tạo Database**
 - Vào SQL Editor của Supabase, chạy nội dung trong file `database_schema.sql` để tạo bảng.
+- Giải nén folder `data`
 - Upload từng file trong folder `data` vào các bảng vừa tạo để có dữ liệu test.
 
 **Bước 3: Cài đặt Keys / URLs**
