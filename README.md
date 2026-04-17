@@ -2,7 +2,7 @@
 
 ## 1. Giới thiệu chung
 Đây là pipeline xây dựng chatbot phân tích dữ liệu kinh doanh tự động từ ngôn ngữ tự nhiên - hỗ trợ Business Development trong việc phân tích dữ liệu kinh doanh. 
-Mã nguồn được viết hoàn toàn trên nền tảng Google Colab và sử dụng Supabase làm cơ sở dữ liệu Vector/Lưu trữ.
+Mã nguồn được viết hoàn toàn trên nền tảng Google Colab và sử dụng Supabase làm cơ sở dữ liệu.
 
 ## 2. Cấu trúc thư mục (Liệt kê các files nộp)
 - `HeheNotebook.ipynb`: File mã nguồn chính (Google Colab Notebook) chứa toàn bộ pipeline.
