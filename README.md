@@ -5,7 +5,7 @@
 Mã nguồn được viết hoàn toàn trên nền tảng Google Colab và sử dụng Supabase làm cơ sở dữ liệu.
 
 ## 2. Cấu trúc thư mục
-- `HeheNotebook.ipynb`: File mã nguồn chính (Google Colab Notebook) chứa toàn bộ pipeline.
+- `Group1_Notebook.ipynb`: File mã nguồn chính (Google Colab Notebook) chứa toàn bộ pipeline.
 - `database_schema.sql`: Cấu trúc bảng và các function/trigger (nếu có) dùng trong Supabase.
 - folder `data`: Dữ liệu đã được trích xuất từ Supabase để đảm bảo tính tái lập (reproducibility).
 - `README.md`: File hướng dẫn cài đặt và chạy.
@@ -16,7 +16,7 @@ Mã nguồn được viết hoàn toàn trên nền tảng Google Colab và sử
 
 **Bước 1: Chuẩn bị môi trường**
 1. Mở Google Colab.
-2. Upload file `HeheNotebook.ipynb` lên Google Colab.
+2. Upload file `Group1_Notebook.ipynb` lên Google Colab.
 
 **Bước 2: Tái tạo Database**
 - Vào SQL Editor của Supabase, chạy nội dung trong file `database_schema.sql` để tạo bảng.
